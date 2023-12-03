@@ -1,0 +1,106 @@
+@media (max-width:1000px) {
+    .navbar__wrap {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .logo_burger {
+        display: flex;
+    }
+    .logo {
+        display: none;
+    }
+    .nav-link {
+        font-size: 20px;
+        margin-left: 50px;
+        background: none;
+        padding: 0 20px 3px 20px;
+        transition: all 0.4s ease;
+    }
+    .teacher-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .block_photo_adapt {
+        display: flex;
+    }
+    .block_photo {
+        display: none;
+    }
+    .block_photo_adapt {
+        display: flex;
+    }
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .footer_contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo_eetk {
+        padding: 30px ;
+    }
+    .footer_contact {
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .footer_text {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .slider_img {
+        padding-top: 200px;
+    }
+    .input {
+        width: 70%;
+    }
+}
+@media (max-width:600px) {
+    .text {
+        font-size: 25px;
+    }
+    .block-information_text {
+        padding: 40px 15px;
+    }
+    .teacher-info {
+        padding: 20px;
+    }
+}
+@media (max-width:500px) {
+    .logo_form {
+        max-width: 30%;
+    }
+    .input {
+        width: 90%;
+    }
+    .logo_footer {
+        max-width: 300px;
+    }
+    .logo_eetk {
+        max-width: 100px;
+        padding-right: 50px;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .footer_text {
+        font-size: 20px;
+    }
+}
+@media (max-width:450px) {
+    .title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 25px;
+    }
+    .text {
+        font-size: 20px;
+    }
+}
+@media (max-width:370px) {
+}
